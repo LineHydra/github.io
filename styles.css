@@ -1,5 +1,23 @@
 body{
     background-color: aliceblue;
+    display: flex;
+    flex-flow: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header a, header h1, header b {
+    margin: 0;
 }
 
 #Sign_Up {
@@ -33,16 +51,8 @@ h1{
     text-align: center;
 }
 
-.linie{
-    border: none;
-    border-top: 1px solid #ccc;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
 form{
-    font-family: verdana;
+    font-family: verdana, serif;
     font-size: 20px;
 }
 
@@ -111,7 +121,7 @@ form{
 .World2{
     position: relative;
     font-size: 15px;
-    left: -43%;
+    left: -30%;
     top: -90px;
 }
 
@@ -159,7 +169,7 @@ form{
 .Design2{
     position: relative;
     font-size: 15px;
-    left: -43%;
+    left: -24%;
     top: -90px;
 }
 
@@ -222,6 +232,7 @@ h3{
     position: relative;
     top: 730px;
     width: 57%;
+    left: 0%;
     margin: 0px auto;
 }
 
@@ -278,4 +289,9 @@ h5{
     top: 730px;
     width: 57%;
     margin: 0px auto;
+}
+
+aside {
+    display: flex;
+    flex-flow: column;
 }
