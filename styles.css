@@ -1,0 +1,281 @@
+body{
+    background-color: aliceblue;
+}
+
+#Sign_Up {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+#Subscribe{
+    position: absolute;
+    top: 40px;
+    left: 40px;   
+    font-size: 20px; 
+}
+
+#Sign_Up{
+    position: absolute;
+    top: 20px;
+    right: 40px;   
+    font-size: 20px; 
+}
+
+
+h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.linie{
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+form{
+    font-family: verdana;
+    font-size: 20px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.grey-square{
+    position: absolute;
+    border-radius: 5px;
+    left: 2%;    
+    top: 200px;
+    width: 96%;
+    height: 350px;
+    background-color: rgb(29, 34, 34); 
+    color: white; 
+    line-height: 200px;
+}
+
+.text1 {
+    left: 2%;
+    top: 5%;
+    position: absolute;
+    font-size: 50px;
+    text-align: right center;
+    line-height: 1; 
+}
+
+.text2 {
+    top: 50%;
+    left: 2%;
+    position: absolute;
+    font-size: 20px; 
+    line-height: 1;
+}
+
+
+.buttonDesign{
+    align-items: center;
+    margin: 0.1%;
+    padding: 10px 20px;
+    background-color: wheat;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.white1-square{
+    border-radius: 5px;
+    outline: auto;
+    position: absolute;
+    top: 560px;
+    left: 2%;
+    outline-color: black;
+    outline-width: 2px;
+    width: 46%;
+    height: 200px;
+    background-color: white; 
+    color: black; 
+    text-align: center; 
+    line-height: 200px;
+}
+
+.World2{
+    position: relative;
+    font-size: 15px;
+    left: -43%;
+    top: -90px;
+}
+
+.white1-head{
+    left: 2%;
+    top: 15%;
+    position: absolute;
+    font-size: 30px;
+    text-align: right center;
+    line-height: 1; 
+}
+
+.white1-text{
+    top: 50%;
+    left: 2%;
+    position: absolute;
+    font-size: 15px; 
+    text-align: right center;
+    line-height: 1;
+}
+
+.ConRead1{
+    position: absolute;
+    font-size: 15px;
+    left: 2%;
+    top: 40%;
+}
+
+.white2-square{
+    position: absolute;
+    border-radius: 5px;
+    outline: auto;
+    top: 560px;
+    left: 52%;
+    outline-color: black;
+    outline-width: 2px;
+    width: 46%;
+    height: 200px;
+    background-color: white; 
+    color: black; 
+    text-align: center; 
+    line-height: 200px;
+}
+
+.Design2{
+    position: relative;
+    font-size: 15px;
+    left: -43%;
+    top: -90px;
+}
+
+.white2-head{
+    left: 2%;
+    top: 15%;
+    position: absolute;
+    font-size: 30px;
+    text-align: right center;
+    line-height: 1; 
+}
+
+.white2-text{
+    top: 50%;
+    left: 2%;
+    position: absolute;
+    font-size: 15px; 
+    text-align: right center;
+    line-height: 1;
+}
+
+.ConRead2{
+    position: absolute;
+    font-size: 15px;
+    left: 2%;
+    top: 40%;
+}
+
+h2{
+    color: black;
+    font-size: 25px;
+    position: relative;
+    top: 600px;
+}
+
+.line2{
+    
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 850px;
+    left: 2%;
+    }
+
+.Rechteck{
+    position: absolute;
+    top: 230px;
+    width: 62%;
+    margin: 0 auto;
+}
+
+.txtSpam{
+    position: relative;
+    top: 730px;
+    width: 57%;
+    margin: 0px auto;
+}
+
+.Rechteck2{
+    position: absolute;
+    top: 800px;
+    left: 60%;
+    width: 38%;
+    margin: 0 auto;
+    background-color: lightgrey; 
+    color: black; 
+}
+
+.AboutnS{
+    position: relative;
+    left: 1%;
+    bottom: 1%;
+}
+
+ul{
+    position: relative;
+    top: 770px;
+    left: 70%;
+    list-style-type: none;
+    padding: 0;
+}
+
+link{
+    margin: 5px 0;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+h5{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 1150px;
+    left: 2%;
+}
+
+.Rechteck3{
+    position: absolute;
+    top: 530px;
+    width: 62%;
+    margin: 0 auto;
+}
+
+.txtSpam2{
+    position: relative;
+    top: 730px;
+    width: 57%;
+    margin: 0px auto;
+}
