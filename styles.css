@@ -177,21 +177,28 @@ img{
     display: flex;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 0% 100%;    
+}
+
 h2{
+    grid-column: 1;
     color: black;
     font-size: 30px;
     display: flex;
 }
 
 h0{
-    position: relative;
+    grid-column: 1;
+    display: flex;
     margin: 10px 0px 0px 10px;
     font-size: 25px;
         
 }
 
 .line2{
-    
+    grid-column: 1;
     border: none;
     border-top: 1px solid #ccc;
     margin-top: 10px;
@@ -199,53 +206,52 @@ h0{
 }
 
 h3{
+    display: flex;
+    grid-column: 1;
     color: black;
     font-size: 30px;
-    position: absolute;
-    top: 850px;
-    left: 2%;
-    }
+
+    margin: 100px;
+}
 
 .Rechteck{
-    position: absolute;
-    top: 230px;
-    width: 62%;
-    margin: 0 auto;
+    grid-column: 2;
+    position: relative;
+    margin: 10px;
 }
 
 .txtSpam{
+    grid-column: 1;
     position: relative;
-    top: 730px;
     width: 57%;
     left: 0%;
     margin: 0px auto;
 }
 
 .Rechteck2{
-    position: absolute;
-    top: 800px;
-    left: 60%;
+    grid-column: 2;
+    position: relative;
+    display: flex;
     width: 38%;
-    margin: 0 auto;
+    margin: 0;
     background-color: lightgrey; 
     color: black; 
 }
 
 .AboutnS{
+    grid-column: 2;
     position: relative;
-    left: 1%;
-    bottom: 1%;
 }
 
 ul{
+    grid-column: 2;
     position: relative;
-    top: 900px;
-    left: 60%;
     list-style-type: none;
     padding: 0;
 }
 
 link{
+    grid-column: 2;
     margin: 5px 0;
 }
 
@@ -259,6 +265,7 @@ h4{
 }
 
 h5{
+    grid-column: 1;
     color: black;
     font-size: 30px;
     position: absolute;
@@ -267,20 +274,28 @@ h5{
 }
 
 .Rechteck3{
-    position: absolute;
-    top: 530px;
+    grid-column: 1;
+    display: flex;
     width: 62%;
     margin: 0 auto;
 }
 
 .txtSpam2{
-    position: relative;
-    top: 730px;
-    width: 57%;
+    display: flex;
     margin: 0px auto;
 }
 
 aside {
+
     display: flex;
     flex-flow: column;
+}
+
+footer {
+    background: darkgray;
+    color: orangered;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
